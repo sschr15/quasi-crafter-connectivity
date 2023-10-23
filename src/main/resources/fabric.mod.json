@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "quasi-crafter-connectivity",
+	"version": "${version}",
+	"name": "Quasi Crafter Connectivity",
+	"description": "Adds quasi-connectivity to the new auto crafter block.",
+	"authors": [
+		"sschr15"
+	],
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"quasi-crafter-connectivity.mixins.json"
+	],
+	"depends": {
+		"minecraft": ">=1.20.2-alpha.23.42.a"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
